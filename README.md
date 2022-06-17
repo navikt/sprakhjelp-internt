@@ -38,7 +38,7 @@ Kopier over følgende mapper i koden din:
 - /data (inneholder ordlister i json format)
 
 ## Legg til språksjekk i frontend
-Språksjekk resultatene vises i <Accordion> elementet. Alt den trenger er {value}, det vil si tekstinnhold som kan analyseres. Du kan f.eks. hente dette fra <teaxtarea> eller <input> element.
+Språksjekk resultatene vises i Accordion elementet. Alt den trenger er {value}, det vil si tekstinnhold som kan analyseres. Du kan f.eks. hente dette fra et "teaxtarea" eller "input" element.
 
 ```javascript
 <Accordion>
