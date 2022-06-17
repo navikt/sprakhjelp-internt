@@ -1,20 +1,5 @@
-.is-active {
-    background-color: black;
-    color: #fff;
-}
-
-.button {
-    background: #f8fafc;
-    border: 1px solid #000;
-    padding: 5px;
-}
-
 .removeAccordionPaddingBottom {
     padding-bottom: 0px;
-}
-
-.float-right {
-    float: right;
 }
 
 .pb-2 {
@@ -67,11 +52,6 @@
     min-height: 250px;
 }
 
-.h-header {
-    height: 3.5rem;
-    display: inline-block;
-}
-
 .gammelnavskAccordion {
     background-color: #f8fafc !important;
 }
@@ -86,7 +66,6 @@
 
 .pagination-container {
     width: 100%;
-    /*  display: flex; */
 }
 
 .pagination {
