@@ -37,6 +37,24 @@ Kopier over følgende mapper i koden din:
 - /components/analysis (inneholder språksjekk komponentene)
 - /data (inneholder ordlister i json format)
 
+## Legg til språksjekk i frontend
+Språksjekk resultatene vises i <Accordion> elementet. Alt den trenger er {value}, det vil si tekstinnhold som kan analyseres. Du kan f.eks. hente dette fra <teaxtarea> eller <input> element.
+
+```javascript
+<Accordion>
+    <LongParagraphs content={value}/>
+    <LongSentences content={value}/>
+    <LongWords content={value}/>
+    <DublicateWords content={value}/>
+    <GammelnavskCheck content={value}/>
+    <Nrkordliste content={value}/>
+    <Begrepskatalog content={value}/>
+    <Lix content={value}/>
+    <OrdTelling content={value}/>
+</Accordion>
+```
+
+
 # Språksjekk funksjoner
 
 - Lange ord
