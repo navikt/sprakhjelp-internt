@@ -2,7 +2,7 @@ NAV Språksjekk Internt
 ================
 
 
-NAV Språksjekk Internt er en forenklet utgave av [NAV Språksjekk](https://github.com/navikt/spraksjekk). Denne kan enklet legges til i interne løsninger.
+NAV Språksjekk Internt er en forenklet utgave av [NAV Språksjekk](https://github.com/navikt/spraksjekk). Denne kan legges til i interne løsninger.
 
 
 ---
