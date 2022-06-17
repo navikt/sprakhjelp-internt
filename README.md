@@ -14,3 +14,9 @@ Spørsmål knyttet til koden eller prosjektet kan stilles som issues her på Git
 ## For NAV-ansatte
 
 Interne henvendelser kan sendes via Slack i kanalen #researchops.
+
+# Test koden lokalt
+
+1. Last ned koden
+2. yarn install
+3. yarn dev
