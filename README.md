@@ -40,6 +40,9 @@ Kopier over følgende mapper i koden din:
 ## Legg til språksjekkresultatene i koden
 Språksjekkresultatene vises i Accordion elementet. Alt den trenger er {value}, dette vil si tekstinnhold som kan analyseres. Du kan f.eks. hente dette fra et "teaxtarea" eller "input" element.
 
+1. Importer språksjekk komponenetne i koden
+2. Legg til Accordian elementet for å vise språksjekkresultatene
+
 ```javascript
 <Accordion>
     <LongParagraphs content={value}/>
@@ -53,7 +56,6 @@ Språksjekkresultatene vises i Accordion elementet. Alt den trenger er {value}, 
     <OrdTelling content={value}/>
 </Accordion>
 ```
-
 
 # Språksjekk funksjoner
 
