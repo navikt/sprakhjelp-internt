@@ -1,7 +1,9 @@
-[NAV Språksjekk Internt](https://navikt.github.io/spraksjekk/)
+NAV Språksjekk Internt
 ================
 
-[NAV Språksjekk](https://navikt.github.io/spraksjekk/) hjelper deg med å kvalitetsjekke innhold.
+
+NAV Språksjekk Internt er en forenklet utgave av [NAV Språksjekk](https://github.com/navikt/spraksjekk). Denne kan enklet legges til i interne løsninger.
+
 
 ---
 
