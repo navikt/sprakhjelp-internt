@@ -20,3 +20,19 @@ Interne henvendelser kan sendes via Slack i kanalen #researchops.
 1. Last ned koden
 2. yarn install
 3. yarn dev
+
+# Legg Språksjekken inn i egen løsning
+
+## NPM pakker og CSS
+Koden bygger på komponnter fra NAVs Designsystem. For å kjøre dette trenger du:
+- @navikt/ds-css
+- @navikt/ds-react
+
+Det vi li tillegg være behov for å legge til css koden i App.css.
+
+## Kopier mapper over i ditt prosjekt
+NAV Språksjekk er bygget komponentbassert, dette lar deg enkelt plukke og mikse hvilke språksjekk funksjoner som du ønsker.
+
+Kopier over følgende mapper i koden din:
+- /components/analysis (inneholder språksjekk komponentene)
+- /data (inneholder ordlister i json format)
