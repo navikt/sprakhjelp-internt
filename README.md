@@ -21,7 +21,7 @@ Interne henvendelser kan sendes via Slack i kanalen #researchops.
 2. yarn install
 3. yarn dev
 
-# Legg NAV Språksjekk i egen løsning
+# Legg til NAV Språksjekk i egen løsning
 
 ## NPM pakker og CSS
 Koden bygger på komponenter fra NAVs Designsystem. For å kjøre dette trenger du:
