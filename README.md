@@ -31,7 +31,7 @@ Koden bygger på komponenter fra NAVs Designsystem. For å kjøre dette trenger 
 Det vil i tillegg være behov for å legge til css koden i App.css.
 
 ## Kopier mapper over i ditt prosjekt
-NAV Språksjekk er bygget komponentbassert, dette lar deg enkelt plukke og mikse hvilke språksjekk funksjoner som du ønsker.
+NAV Språksjekk er bygget komponentbasert, dette lar deg enkelt plukke og mikse hvilke språksjekk funksjoner som du ønsker.
 
 Kopier over følgende mapper i koden din:
 - /components/analysis (inneholder språksjekk komponentene)
