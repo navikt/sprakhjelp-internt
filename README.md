@@ -24,7 +24,7 @@ Interne henvendelser kan sendes via Slack i kanalen #researchops.
 # Legg Språksjekken inn i egen løsning
 
 ## NPM pakker og CSS
-Koden bygger på komponnter fra NAVs Designsystem. For å kjøre dette trenger du:
+Koden bygger på komponenter fra NAVs Designsystem. For å kjøre dette trenger du:
 - @navikt/ds-css
 - @navikt/ds-react
 
