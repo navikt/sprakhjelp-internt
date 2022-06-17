@@ -28,7 +28,7 @@ Koden bygger på komponenter fra NAVs Designsystem. For å kjøre dette trenger 
 - @navikt/ds-css
 - @navikt/ds-react
 
-Det vi li tillegg være behov for å legge til css koden i App.css.
+Det vil i tillegg være behov for å legge til css koden i App.css.
 
 ## Kopier mapper over i ditt prosjekt
 NAV Språksjekk er bygget komponentbassert, dette lar deg enkelt plukke og mikse hvilke språksjekk funksjoner som du ønsker.
