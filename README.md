@@ -1,8 +1,8 @@
-NAV Språksjekk Internt
+NAV Språkhjelp Internt
 ================
 
 
-NAV Språksjekk Internt er en forenklet utgave av [NAV Språksjekk](https://github.com/navikt/spraksjekk) som kan legges til i interne løsninger.
+NAV Språkhjelp Internt er en forenklet utgave av [NAV Språkhjelp](https://github.com/navikt/spraksjekk) som kan legges til i interne løsninger.
 
 
 ---
@@ -21,7 +21,7 @@ Interne henvendelser kan sendes via Slack i kanalen #researchops.
 2. yarn install
 3. yarn dev
 
-# Legg til NAV Språksjekk i egen løsning
+# Legg til NAV Språkhjelp i egen løsning
 
 ## NPM pakker og CSS
 Koden bygger på komponenter fra NAVs Designsystem. For å kjøre dette trenger du:
@@ -31,17 +31,17 @@ Koden bygger på komponenter fra NAVs Designsystem. For å kjøre dette trenger 
 Det vil i tillegg være behov for å legge til css koden i App.css.
 
 ## Kopier mapper over i ditt prosjekt
-NAV Språksjekk er bygget komponentbasert, dette lar deg enkelt plukke og mikse hvilke språksjekk funksjoner som du ønsker.
+NAV Språkhjelp er bygget komponentbasert, dette lar deg enkelt plukke og mikse hvilke språkhjelp funksjoner som du ønsker.
 
 Kopier over følgende mapper i koden din:
-- /components/analysis (inneholder språksjekk komponentene)
+- /components/analysis (inneholder språkhjelp komponentene)
 - /data (inneholder ordlister i json format)
 
-## Legg til språksjekkresultatene i koden
-Språksjekkresultatene vises i Accordion elementet. Alt den trenger er {value}, dette vil si tekstinnhold som kan analyseres. Du kan f.eks. hente dette fra et "teaxtarea" eller "input" element.
+## Legg til språkhjelpresultatene i koden
+Språkhjelpresultatene vises i Accordion elementet. Alt den trenger er {value}, dette vil si tekstinnhold som kan analyseres. Du kan f.eks. hente dette fra et "teaxtarea" eller "input" element.
 
-1. Importer språksjekk komponentene i koden
-2. Legg til Accordian elementet for å vise språksjekkresultatene
+1. Importer språkhjelp komponentene i koden
+2. Legg til Accordian elementet for å vise språkhjelpresultatene
 
 ```javascript
 <Accordion>
@@ -57,7 +57,7 @@ Språksjekkresultatene vises i Accordion elementet. Alt den trenger er {value}, 
 </Accordion>
 ```
 
-# Språksjekk funksjoner
+# Språkhjelp funksjoner
 
 - Lange ord
 - Lange setninger
